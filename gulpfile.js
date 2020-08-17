@@ -10,7 +10,7 @@ const style = () => {
     .src('./scss/**/*.scss')
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(csso({ restructure: true }))
+    .pipe(csso({ restructure: false }))
     .pipe(cleanCSS({ compatibility: 'ie8' }))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream());
