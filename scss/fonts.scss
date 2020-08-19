@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('Neue Haas Grotesk Text Pro Roman'),
-    url('NHaasGroteskTXPro-55Rg.woff') format('woff');
+    url('./fonts/NHaasGroteskTXPro-55Rg.woff') format('woff');
 }
 
 @font-face {
@@ -13,5 +13,5 @@
   font-style: normal;
   font-weight: normal;
   src: local('Neue Haas Grotesk Text Pro Bold'),
-    url('NHaasGroteskTXPro-75Bd.woff') format('woff');
+    url('./fonts/NHaasGroteskTXPro-75Bd.woff') format('woff');
 }
